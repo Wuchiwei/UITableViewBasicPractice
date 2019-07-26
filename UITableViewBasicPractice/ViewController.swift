@@ -90,6 +90,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         footerView?.contentView.backgroundColor = .orange
         
+        guard let ntuFooterView = footerView as? NTUFooterView else { return footerView }
+        
+        ntuFooterView.footerLabel.text = "Section \(section)"
+        
         return footerView
     }
     
