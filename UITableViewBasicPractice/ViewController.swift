@@ -62,11 +62,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
-        let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: "Header")
+        let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: "Header")
         
-        header?.contentView.backgroundColor = UIColor.black
+        headerView?.contentView.backgroundColor = UIColor.black
         
-        return header
+        guard let ntuHeaderView = headerView as? NTUHeaderView else { return headerView }
+        
+        ntuHeaderView.headerLabel.text = "Section \(section)"
+        
+        return ntuHeaderView
     }
 }
 
