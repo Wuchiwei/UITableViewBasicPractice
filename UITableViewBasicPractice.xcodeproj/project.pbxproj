@@ -12,6 +12,7 @@
 		3C40C2D922EB307700A2FDF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C40C2D722EB307700A2FDF5 /* Main.storyboard */; };
 		3C40C2DB22EB307800A2FDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C40C2DA22EB307800A2FDF5 /* Assets.xcassets */; };
 		3C40C2DE22EB307800A2FDF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C40C2DC22EB307800A2FDF5 /* LaunchScreen.storyboard */; };
+		3C40C2E622EB325E00A2FDF5 /* NTUTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40C2E522EB325E00A2FDF5 /* NTUTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3C40C2DA22EB307800A2FDF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C40C2DD22EB307800A2FDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C40C2DF22EB307800A2FDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C40C2E522EB325E00A2FDF5 /* NTUTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTUTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3C40C2D322EB307700A2FDF5 /* AppDelegate.swift */,
 				3C40C2D522EB307700A2FDF5 /* ViewController.swift */,
+				3C40C2E522EB325E00A2FDF5 /* NTUTableViewCell.swift */,
 				3C40C2D722EB307700A2FDF5 /* Main.storyboard */,
 				3C40C2DA22EB307800A2FDF5 /* Assets.xcassets */,
 				3C40C2DC22EB307800A2FDF5 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C40C2D622EB307700A2FDF5 /* ViewController.swift in Sources */,
+				3C40C2E622EB325E00A2FDF5 /* NTUTableViewCell.swift in Sources */,
 				3C40C2D422EB307700A2FDF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

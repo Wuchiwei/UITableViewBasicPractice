@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="142" id="OBy-cZ-ZfW">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="142" id="OBy-cZ-ZfW" customClass="NTUTableViewCell" customModule="UITableViewBasicPractice" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="142"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OBy-cZ-ZfW" id="5iJ-Cg-tYX">
@@ -41,6 +41,9 @@
                                                 <constraint firstItem="sbG-g2-xBP" firstAttribute="centerY" secondItem="5iJ-Cg-tYX" secondAttribute="centerY" id="flj-ln-cSa"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="ntuLabel" destination="sbG-g2-xBP" id="dUg-jR-q0C"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
