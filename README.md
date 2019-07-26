@@ -1,5 +1,6 @@
 # UITableViewBasicPractice
 
+ <img src="https://github.com/Wuchiwei/UITableViewBasicPractice/blob/master/images/UITableViewBasicPractice.gif" alt="UITableViewBasicPractice" width=400>
  
 **Step 1**
 
