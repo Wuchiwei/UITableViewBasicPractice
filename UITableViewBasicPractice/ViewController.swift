@@ -23,6 +23,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let headerXib = UINib(nibName: "NTUHeaderView", bundle: nil)
         
         tableView.register(headerXib, forHeaderFooterViewReuseIdentifier: "Header")
+        
+        let footerXib = UINib(nibName: "NTUFooterView", bundle: nil)
+        
+        tableView.register(footerXib, forHeaderFooterViewReuseIdentifier: "Footer")
     }
 
     //MARK: - UITableViewDataSource
@@ -34,7 +38,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 100
+        return 20
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -55,6 +59,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return 100
     }
     
+    //MARK: - Section Header
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         
         return 60
@@ -72,5 +77,21 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         return ntuHeaderView
     }
+    
+    //MARK: - Section Footer
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        
+        return 60
+    }
+    
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        
+        let footerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: "Footer")
+        
+        footerView?.contentView.backgroundColor = .orange
+        
+        return footerView
+    }
+    
 }
 
