@@ -29,7 +29,7 @@
 
     1. Save view controller instance into tableView's dataSource property.
 
-    `tableView.dataSource = self`
+`tableView.dataSource = self`
 
 **Step 6**
 
