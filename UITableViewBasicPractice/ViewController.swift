@@ -54,5 +54,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         return 100
     }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        
+        return 60
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        
+        let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: "Header")
+        
+        header?.contentView.backgroundColor = UIColor.black
+        
+        return header
+    }
 }
 
