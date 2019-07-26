@@ -73,7 +73,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         guard let ntuHeaderView = headerView as? NTUHeaderView else { return headerView }
         
-        ntuHeaderView.headerLabel.text = "Section \(section)"
+        ntuHeaderView.headerLabel.text = "Header---Section \(section)"
         
         return ntuHeaderView
     }
@@ -92,7 +92,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         guard let ntuFooterView = footerView as? NTUFooterView else { return footerView }
         
-        ntuFooterView.footerLabel.text = "Section \(section)"
+        ntuFooterView.footerLabel.text = "Footer---Section \(section)"
         
         return footerView
     }
