@@ -15,6 +15,8 @@
 		3C40C2E622EB325E00A2FDF5 /* NTUTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40C2E522EB325E00A2FDF5 /* NTUTableViewCell.swift */; };
 		3C40C2E822EB3B4B00A2FDF5 /* NTUHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40C2E722EB3B4B00A2FDF5 /* NTUHeaderView.swift */; };
 		3C40C2EA22EB3B5F00A2FDF5 /* NTUHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C40C2E922EB3B5F00A2FDF5 /* NTUHeaderView.xib */; };
+		3C40C2EC22EB3F3B00A2FDF5 /* NTUFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40C2EB22EB3F3B00A2FDF5 /* NTUFooterView.swift */; };
+		3C40C2EE22EB3F4800A2FDF5 /* NTUFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C40C2ED22EB3F4800A2FDF5 /* NTUFooterView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		3C40C2E522EB325E00A2FDF5 /* NTUTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTUTableViewCell.swift; sourceTree = "<group>"; };
 		3C40C2E722EB3B4B00A2FDF5 /* NTUHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTUHeaderView.swift; sourceTree = "<group>"; };
 		3C40C2E922EB3B5F00A2FDF5 /* NTUHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NTUHeaderView.xib; sourceTree = "<group>"; };
+		3C40C2EB22EB3F3B00A2FDF5 /* NTUFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTUFooterView.swift; sourceTree = "<group>"; };
+		3C40C2ED22EB3F4800A2FDF5 /* NTUFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NTUFooterView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,14 +67,32 @@
 				3C40C2D322EB307700A2FDF5 /* AppDelegate.swift */,
 				3C40C2D522EB307700A2FDF5 /* ViewController.swift */,
 				3C40C2E522EB325E00A2FDF5 /* NTUTableViewCell.swift */,
-				3C40C2E722EB3B4B00A2FDF5 /* NTUHeaderView.swift */,
-				3C40C2E922EB3B5F00A2FDF5 /* NTUHeaderView.xib */,
+				3C40C2F022EB3F5800A2FDF5 /* NTUHeaderView */,
+				3C40C2EF22EB3F5000A2FDF5 /* NTUFooterView */,
 				3C40C2D722EB307700A2FDF5 /* Main.storyboard */,
 				3C40C2DA22EB307800A2FDF5 /* Assets.xcassets */,
 				3C40C2DC22EB307800A2FDF5 /* LaunchScreen.storyboard */,
 				3C40C2DF22EB307800A2FDF5 /* Info.plist */,
 			);
 			path = UITableViewBasicPractice;
+			sourceTree = "<group>";
+		};
+		3C40C2EF22EB3F5000A2FDF5 /* NTUFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				3C40C2EB22EB3F3B00A2FDF5 /* NTUFooterView.swift */,
+				3C40C2ED22EB3F4800A2FDF5 /* NTUFooterView.xib */,
+			);
+			path = NTUFooterView;
+			sourceTree = "<group>";
+		};
+		3C40C2F022EB3F5800A2FDF5 /* NTUHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				3C40C2E722EB3B4B00A2FDF5 /* NTUHeaderView.swift */,
+				3C40C2E922EB3B5F00A2FDF5 /* NTUHeaderView.xib */,
+			);
+			path = NTUHeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +157,7 @@
 				3C40C2EA22EB3B5F00A2FDF5 /* NTUHeaderView.xib in Resources */,
 				3C40C2DB22EB307800A2FDF5 /* Assets.xcassets in Resources */,
 				3C40C2D922EB307700A2FDF5 /* Main.storyboard in Resources */,
+				3C40C2EE22EB3F4800A2FDF5 /* NTUFooterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C40C2EC22EB3F3B00A2FDF5 /* NTUFooterView.swift in Sources */,
 				3C40C2D622EB307700A2FDF5 /* ViewController.swift in Sources */,
 				3C40C2E822EB3B4B00A2FDF5 /* NTUHeaderView.swift in Sources */,
 				3C40C2E622EB325E00A2FDF5 /* NTUTableViewCell.swift in Sources */,
