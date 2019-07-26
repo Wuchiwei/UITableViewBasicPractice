@@ -23,6 +23,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     //MARK: - UITableViewDataSource
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        
+        return 3
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return 100
