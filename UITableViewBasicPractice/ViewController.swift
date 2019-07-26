@@ -32,7 +32,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "NTU", for: indexPath)
         
-        return cell
+        guard let ntuCell = cell as? NTUTableViewCell else { return cell }
+        
+        ntuCell.ntuLabel.text = "Section \(indexPath.section) Row \(indexPath.row)"
+        
+        return ntuCell
     }
 
     //MARK: - UITableViewDelegate
