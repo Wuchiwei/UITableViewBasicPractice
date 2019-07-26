@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -17,6 +17,8 @@ class ViewController: UIViewController, UITableViewDataSource {
         // Do any additional setup after loading the view.
         
         tableView.dataSource = self
+        
+        tableView.delegate = self
     }
 
     //MARK: - UITableViewDataSource
@@ -33,5 +35,11 @@ class ViewController: UIViewController, UITableViewDataSource {
         return cell
     }
 
+    //MARK: - UITableViewDelegate
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        return 100
+    }
 }
 
