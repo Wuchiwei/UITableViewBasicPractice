@@ -19,6 +19,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.dataSource = self
         
         tableView.delegate = self
+        
+        let headerXib = UINib(nibName: "NTUHeaderView", bundle: nil)
+        
+        tableView.register(headerXib, forHeaderFooterViewReuseIdentifier: "Header")
     }
 
     //MARK: - UITableViewDataSource
