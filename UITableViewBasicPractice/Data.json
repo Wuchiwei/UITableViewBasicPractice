@@ -1,0 +1,82 @@
+[   
+        {
+            "name": "華語新歌",
+            "data": [
+                {
+                    "name": "差不多姑娘 (Miss Similar)",
+                    "artist": "G.E.M.鄧紫棋",
+                    "image": "https://i.kfs.io/album/global/58767000,0v1/fit/500x500.jpg"
+                },
+                {
+                    "name": "i GO",
+                    "artist": "周湯豪 (NICKTHEREAL)",
+                    "image": "https://i.kfs.io/album/global/57357057,0v1/fit/500x500.jpg"
+                },
+                {
+                    "name": "#敢 有色眼光",
+                    "artist": "高爾宣 OSN",
+                    "image": "https://i.kfs.io/album/global/58129754,1v1/fit/500x500.jpg"
+                }
+            ]
+        },
+        {
+            "name": "熱門點播",
+            "data": [
+                {
+                    "name": "Beautiful People (feat. Khalid)",
+                    "artist": "Ed Sheeran",
+                    "image": "https://i.kfs.io/album/global/57482081,0v1/fit/500x500.jpg"
+                },
+                {
+                    "name": "Happy!!! 運將情歌",
+                    "artist": "茄子蛋 (EggPlantEgg)",
+                    "image": "https://i.kfs.io/album/global/57332586,1v1/fit/500x500.jpg"
+                },
+                {
+                    "name": "大風吹 (Miss You)",
+                    "artist": "曾沛慈 (Pets Tseng)",
+                    "image": "https://i.kfs.io/album/global/58192087,1v1/fit/500x500.jpg"
+                }
+            ]
+        },
+        {
+            "name": "火燙金曲",
+            "data": [
+                {
+                    "name": "bad guy (with Justin Bieber)",
+                    "artist": "Billie Eilish, Justin Bieber",
+                    "image": "https://i.kfs.io/album/global/58310720,1v1/fit/500x500.jpg"
+                },
+                {
+                    "name": "兩秒終 (2 Seconds)",
+                    "artist": "周湯豪 (NICKTHEREAL)",
+                    "image": "https://i.kfs.io/album/global/58508645,0v1/fit/500x500.jpg"
+                },
+                {
+                    "name": "守護永恆的愛",
+                    "artist": "孫燕姿 (Stefanie Sun)",
+                    "image": "https://i.kfs.io/album/global/58692029,0v1/fit/500x500.jpg"
+                }
+            ]
+        },
+        {
+            "name": "百聽不膩",
+            "data": [
+                {
+                    "name": "Hands Up",
+                    "artist": "陳忻玥 (Vicky Chen)",
+                    "image": "https://i.kfs.io/album/global/58483759,0v1/fit/500x500.jpg"
+                },
+                {
+                    "name": "Goodbyes",
+                    "artist": "Post Malone",
+                    "image": "https://i.kfs.io/album/global/57908237,1v1/fit/500x500.jpg"
+                },
+                {
+                    "name": "巴別塔慶典",
+                    "artist": "吳青峰",
+                    "image": "https://i.kfs.io/album/global/57756836,0v1/fit/500x500.jpg"
+                }
+            ]
+        }
+]
